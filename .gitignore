@@ -1,1 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
 
+# Virtual Environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Spark
+spark-warehouse/
+
+# Logs
+*.log
+
+# Data Outputs
+data/bronze/*
+data/silver/*
+data/gold/*
+
+# Keep folders
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
